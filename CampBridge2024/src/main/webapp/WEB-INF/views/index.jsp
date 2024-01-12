@@ -56,33 +56,42 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">CampBridge 소개</a></li>
-          <li><a href="#about">캠핑장 검색</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#events">이벤트</a></li>
-          <li><a href="#chefs">Chefs</a></li>
-          <li><a href="#gallery">TOP5</a></li>
-          <li class="dropdown"><a href="#"><span>커뮤니티</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#hero">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+	          <ul>
+	              <li><a href="#">사이트 소개</a></li>
+	              <li><a href="#">개발팀 소개</a></li>
+	          </ul>
+          </li>
+          <li class="dropdown"><a href="#about">캠핑장 검색<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          	<ul>
+	            <li><a href="#">캠핑장 검색</a></li>
+	            <li><a href="#">지도 검색</a></li>
+	            <li><a href="#">추천 검색</a></li>
+	        </ul>
+          </li>
+          <li><a href="#menu">테마검색</a></li>
+          <li><a href="#events">(카드형)</a></li>
+          <li class="dropdown"><a href="#"><span>커뮤니티</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">공지사항</a></li>
-              <li class="dropdown"><a href="#"><span>파티원모집</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">오토캠핑 파티원</a></li>
-                  <li><a href="#">카라반 파티원</a></li>
-                  <li><a href="#">글램핑 파티원</a></li>
-                  <li><a href="#">차박 파티원</a></li>
-                </ul>
-              </li>
-              <li><a href="#">중고거래&양도 게시판</a></li>
-              <li><a href="#">이벤트 게시판</a></li>
+              <li><a href="#">파티원모집</i></a></li>
+	          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
+              <li><a href="#">중고거래&캠핑장 양도</a></li>
               <li><a href="#">자유게시판</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#chefs">리뷰<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+	          <ul>
+	              <li><a href="#">캠핑장 리뷰</a></li>
+	              <li><a href="#">캠핑용품 리뷰</i></a></li>
+	          </ul>
+          </li>
+          <li><a href="#gallery">(카드형)</a></li>
+          <li><a href="#contact">서비스 문의</a></li>
         </ul>
       </nav><!-- .navbar -->
 
-      <a class="btn-book-a-table" href="#book-a-table">캠핑장 예약</a>
+      <a class="btn-book-a-table" href="#book-a-table">용품대여</a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -295,7 +304,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>오토캠핑1</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -306,7 +315,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <h4>오토캠핑2</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -317,7 +326,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <h4>오토캠핑3</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -328,7 +337,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>오토캠핑4</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -339,7 +348,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>오토캠핑5</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -350,7 +359,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>오토캠핑6</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -936,8 +945,8 @@
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-map flex-shrink-0"></i>
               <div>
-                <h3>Our Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>회사주소</h3>
+                <p>08378 서울 구로구 디지털로34길 27 (구로동) 1106-7호 한국직업전문학교</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -946,8 +955,8 @@
             <div class="info-item d-flex align-items-center">
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
-                <h3>Email Us</h3>
-                <p>contact@example.com</p>
+                <h3>Email(이메일)</h3>
+                <p>campBridge@example.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -956,8 +965,8 @@
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <h3>연락처</h3>
+                <p>02)7777-7777</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -966,9 +975,9 @@
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-share flex-shrink-0"></i>
               <div>
-                <h3>Opening Hours</h3>
-                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
-                  <strong>Sunday:</strong> Closed
+                <h3>서비스 상담</h3>
+                <div><strong>월-금:</strong> 10AM - 18PM;
+                  <strong>주말:</strong> 자동음성 안내
                 </div>
               </div>
             </div>
