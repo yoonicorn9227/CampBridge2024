@@ -43,75 +43,23 @@
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>CampBridge<span>.</span></h1>
-      </a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li class="dropdown"><a href="#hero">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
-	          <ul>
-	              <li><a href="#">사이트 소개</a></li>
-	              <li><a href="#">개발팀 소개</a></li>
-	          </ul>
-          </li>
-          <li class="dropdown"><a href="#about">캠핑장 검색<i class="bi bi-chevron-down dropdown-indicator"></i></a>
-          	<ul>
-	            <li><a href="#">캠핑장 검색</a></li>
-	            <li><a href="#">지도 검색</a></li>
-	            <li><a href="#">추천 검색</a></li>
-	        </ul>
-          </li>
-          <li><a href="#menu">테마검색</a></li>
-          <li><a href="#events">(카드형)</a></li>
-          <li class="dropdown"><a href="#"><span>커뮤니티</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">공지사항</a></li>
-              <li><a href="#">파티원모집</i></a></li>
-	          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
-              <li><a href="#">중고거래&캠핑장 양도</a></li>
-              <li><a href="#">자유게시판</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#chefs">리뷰<i class="bi bi-chevron-down dropdown-indicator"></i></a>
-	          <ul>
-	              <li><a href="#">캠핑장 리뷰</a></li>
-	              <li><a href="#">캠핑용품 리뷰</i></a></li>
-	          </ul>
-          </li>
-          <li><a href="#gallery">(카드형)</a></li>
-          <li><a href="#contact">서비스 문의</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <a class="btn-book-a-table" href="#book-a-table">용품대여</a>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-    </div>
-  </header><!-- End Header -->
-
+<!-- ======= Header ======= -->
+<%@include file="include/header.jsp" %>
+<!-- End Header -->
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center section-bg">
+  <section id="hero" class="hero d-flex align-items-center section-bg" style="background-image: url('assets/img/campBridge3.jpg')">
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <h2 data-aos="fade-up" style="color: white;">캠핑 커뮤니티<br>캠브릿지 CampBridge</h2>
+          <p data-aos="fade-up" data-aos-delay="100" style="color: white;">In 2024, CampBridge New Web Service Grand Open! please join us and Sign up Now!</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+            <a href="#book-a-table" class="btn-book-a-table">용품대여</a>
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        <div style="width: 610px; height: 610px"></div>
         </div>
       </div>
     </div>
@@ -946,7 +894,7 @@
               <i class="icon bi bi-map flex-shrink-0"></i>
               <div>
                 <h3>회사주소</h3>
-                <p>08378 서울 구로구 디지털로34길 27 (구로동) 1106-7호 한국직업전문학교</p>
+                <p>08378 서울 구로구 디지털로34길 27<br> (구로동) 1106-7호 한국직업전문학교<br><strong>[항공 5기] 손발이 Do it팀</strong></p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -976,8 +924,8 @@
               <i class="icon bi bi-share flex-shrink-0"></i>
               <div>
                 <h3>서비스 상담</h3>
-                <div><strong>월-금:</strong> 10AM - 18PM;
-                  <strong>주말:</strong> 자동음성 안내
+                <div>월(Mon)-금(Fri) : <strong>10AM - 18PM</strong><br>
+                  주말(Weekend) : <strong>자동음성 안내</strong>
                 </div>
               </div>
             </div>
@@ -1014,70 +962,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="container">
-      <div class="row gy-3">
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-geo-alt icon"></i>
-          <div>
-            <h4>주소</h4>
-            <p>
-              08378 서울 구로구 디지털로34길 27 (구로동) 1106-7호 한국직업전문학교<br>
-              [항공5기] 손발이 Do it팀<br>
-            </p>
-          </div>
-
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links d-flex">
-          <i class="bi bi-telephone icon"></i>
-          <div>
-            <h4>사이트 문의</h4>
-            <p>
-              <strong>Phone:</strong> 02) 7777- 7777<br>
-              <strong>Email:</strong> campbridge2024@example.com<br>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links d-flex">
-          <i class="bi bi-clock icon"></i>
-          <div>
-            <h4>상담문의 시간</h4>
-            <p>
-              <strong>월요일~금요일: 10AM</strong> - 18PM<br>
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Follow Us</h4>
-          <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>CampBridge</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">㈜손발이 Do It</a>
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
+  <%@include file="include/footer.jsp" %>
   <!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

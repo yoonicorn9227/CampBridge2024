@@ -10,5 +10,12 @@ public class FController {
 	public String index() {
 		return "index";
 	}// index()
+	
+	@GetMapping("nList")
+	public String nList() {
+		return "nList";
+	}// nList()
+	
+	
 
 }// FController
