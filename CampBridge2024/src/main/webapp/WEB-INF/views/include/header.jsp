@@ -35,13 +35,13 @@
 	          <li><a href="#menu">테마검색</a></li>
 	          <li class="dropdown"><a href="#"><span>커뮤니티</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
 	            <ul>
-	              <li><a href="#">파티원모집</i></a></li>
-		          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
+	              <li><a href="/commuinty/partyList">파티원모집</i></a></li>
+		          <li><a href="/commuinty/tipList">캠핑꿀팁(KnowHow)</a></li>
 	              <li><a href="#">중고거래&캠핑장 양도</a></li>
-	              <li><a href="#">자유게시판</a></li>
+	              <li><a href="/commuinty/freeList">자유게시판</a></li>
 	            </ul>
 	          </li>
-	          <li class="dropdown"><a href="#chefs">리뷰<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+	          <li class="dropdown"><a href="#">리뷰<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
 		              <li><a href="#">캠핑장 리뷰</a></li>
 		              <li><a href="#">캠핑용품 리뷰</i></a></li>
@@ -54,7 +54,8 @@
 	      <a class="btn-book-a-table" href="#book-a-table">용품대여</a>
 	      <li style="list-style: none; font-weight: 700"><a href="#">로그인</a></li>
 	      <li style="list-style: none; font-weight: 700"><a href="#">회원가입</a></li>
-	      <li style="list-style: none; font-weight: 700"><a href="nList">공지사항</a></li>
+	      <li style="list-style: none; font-weight: 700"><a href="../nList">공지사항</a></li>
+	      </li>
 	      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
 	      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 	
