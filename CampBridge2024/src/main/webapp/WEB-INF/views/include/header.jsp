@@ -19,7 +19,7 @@
 	      <div class="login d-flex">
 	      <li><a href="/login">로그인</a></li>
 	      <li><a href="#">회원가입</a></li>
-	      <li><a href="nList">공지사항</a></li>
+	      <li><a href="/nList">공지사항</a></li>
 	      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
 	      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 	      <a class="btn-book-a-table" href="#book-a-table">용품대여</a>
@@ -45,10 +45,10 @@
 	          <li><a href="#">테마검색</a></li>
 	          <li class="dropdown"><a href="#"><span>커뮤니티</span></a>
 	            <ul>
-	              <li><a href="#">파티원모집</a></li>
-		          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
+	              <li><a href="/commuinty/pList">파티원모집</a></li>
+		          <li><a href="/commuinty/tList">캠핑꿀팁(Tip)</a></li>
 	              <li><a href="#">중고거래&캠핑장 양도</a></li>
-	              <li><a href="#">자유게시판</a></li>
+	              <li><a href="/commuinty/fList">자유게시판</a></li>
 	            </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">리뷰</a>

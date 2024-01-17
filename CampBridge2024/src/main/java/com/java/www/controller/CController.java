@@ -8,20 +8,34 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("commuinty")
 public class CController {
 
-	@GetMapping("freeList")
-	public String freeList() {
-		return "commuinty/freeList";
-	}// freeList()
-	
-	@GetMapping("tipList")
+	@GetMapping("fList")
+	public String fList() {
+		return "/commuinty/fList";
+	}// fList()
+
+	@GetMapping("fView")
+	public String fView() {
+		return "/commuinty/fView";
+	}// fView()
+
+	@GetMapping("tList")
 	public String tipList() {
-		return "commuinty/tipList";
-	}// tipList()
-	
-	@GetMapping("partyList")
+		return "/commuinty/tList";
+	}// tList()
+
+	@GetMapping("tView")
+	public String tView() {
+		return "/commuinty/tView";
+	}// tView()
+
+	@GetMapping("pList")
 	public String partyList() {
-		return "commuinty/partyList";
-	}// partyList()
-	
-	
-}//CController
+		return "commuinty/pList";
+	}// pList()
+
+	@GetMapping("pView")
+	public String pView() {
+		return "commuinty/pView";
+	}// pView()
+
+}// CController

@@ -37,7 +37,7 @@
 	
 		<section class="notice">
 			<!-- 공지사항 리스트 -->
-	    	<h1 style="float: left; margin: 10px; font-weight: 700; position: relative; top: 5px; left: 220px;">공지사항</h1>
+<h1 style="margin: 10px; font-weight: 700; position: relative; top: 70px; left: -560px; ">공지사항</h1>
 		    <!-- 검색창 -->
 		    <div class="searchDiv">
 			  <form action="" method="get" name="searchFrm">
@@ -140,7 +140,7 @@
 		  		</div>
 		    </table>
 			 	<button class="write">글쓰기</button>
-  			 	<button class="write" onclick="javascript:history.back()">메인홈</button>
+  			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
 		     <ul class="page-num">
 			      <li class="first"></li>
