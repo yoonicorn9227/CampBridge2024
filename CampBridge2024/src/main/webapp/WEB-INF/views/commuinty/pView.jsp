@@ -79,8 +79,7 @@
 			  </tr>
 		    	<div class="list">삭제</div>
 		    	<div class="list">수정</div>
-		    	<a href="pList"><div class="list">목록</div></a>
-		  
+		    	<a href="pList"><div class="list">목록</div></a><br><br><br>
 		   	</table>
 		   
 		    <!-- 이전글/다음글-->
@@ -100,8 +99,8 @@
 				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>
 				<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
 				<li id="replyBtn">
-					<button id="rUBtn">삭제</button>
-					<button id="rDelBtn">수정</button>
+					<button id="rDelBtn">삭제</button>
+					<button id="rUBtn">수정</button>
 				</li>
 				</td>			
 			  </tr>
@@ -109,8 +108,8 @@
 				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>
 				<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
 				<li id="replyBtn">
-					<button id="rUBtn">삭제</button>
-					<button id="rDelBtn">수정</button>
+					<button id="rDelBtn">삭제</button>
+					<button id="rUBtn">수정</button>
 				</li>
 				</td>			
 			  </tr>
@@ -118,8 +117,8 @@
 				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>
 				<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
 				<li id="replyBtn">
-					<button id="rUBtn">삭제</button>
-					<button id="rDelBtn">수정</button>
+					<button id="rDelBtn">삭제</button>
+					<button id="rUBtn">수정</button>
 				</li>
 				</td>			
 			  </tr>
@@ -127,11 +126,21 @@
 				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>
 				<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
 				<li id="replyBtn">
-					<button id="rUBtn">삭제</button>
-					<button id="rDelBtn">수정</button>
+					<button id="rDelBtn">삭제</button>
+					<button id="rUBtn">수정</button>
 				</li>
 				</td>			
 			  </tr>
+			  <tr>
+				<td><strong>댓글 작성자</strong> | <span style="color: blue;">aaa</span>&nbsp;&nbsp;<span>[2024-12-12 15:27:23:00]</span>
+				<li id="replyTxt">&nbsp;&nbsp;댓글내용일 들어갑니다. <br>ex)이벤트 너무 좋아요! 꼭 참여해서 혜택받아볼게요!</li>
+				<li id="replyBtn">
+					<button id="rDelBtn">삭제</button>
+					<button id="rUBtn">수정</button>
+				</li>
+				</td>			
+			  </tr>
+			  
 		    </table>
 		    <!-- 댓글보기 끝-->
 		    

@@ -88,5 +88,7 @@ textarea{border-radius:10px; border: 2px solid #009223;}
 #replybtn:hover{width: 7%; background:#ffce32; border: 2px solid #ffce32; font-size: 20px; font-weight: 700; color: #009223; transition: all 0.4s; border-radius:10px;}
 #replyTxt{list-style: none;}
 #replyBtn{float: right; list-style: none; }
-#rUBtn{width: 50px; line-height:25px;  text-align: center; }
-#rDelBtn{width: 50px;  line-height: 25px; }
+#rUBtn{width: 50px; line-height:25px;  text-align: center; border: 1px solid  #ffce32; border-radius:5px; background:  #ffce32; color:#009223; font-weight: 700;}
+#rDelBtn{width: 50px;  line-height: 25px; border: 1px solid #ffce32; border-radius:5px; background:  #ffce32;  color:#009223; font-weight: 700;}
+#rUBtn:hover{width: 50px; line-height:25px;  text-align: center; border: 1px solid #009223; border-radius:5px; background:  #009223; color:#ffce32; font-weight: 700; transition: all 0.4s;}
+#rDelBtn:hover{width: 50px;  line-height: 25px; border: 1px solid  #ce1212; border-radius:5px; background:  #ce1212;  color:#ffce32; font-weight: 700; transition: all 0.4s;}
