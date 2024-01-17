@@ -65,7 +65,7 @@
 		        <td colspan="4" class="article">게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.<br>게시글 내용이 들어갑니다.</td>
 		      </tr>
 		      <tr style="border-bottom: 2px solid #009223; line-height: 10px;">
-		        <td colspan="4" class="article">※&nbsp;&nbsp;첨부파일 없음</td>
+		        <td colspan="4" class="article"><strong>첨부파일 | </strong>※&nbsp;&nbsp;첨부파일 없음</td>
 		      </tr>
 		    </table>
 		    
