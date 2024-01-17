@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+section {
+  text-align: center;
+  margin: 150px 50px;
+	
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+table {
+  width: 96%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px 0 10px 20px;
+  border: 1px solid silver;
+  border-top: 2px solid black;
+}
+
+td {
+  padding: 5px 0 5px 20px;
+  border: 1px solid silver;
+}
+
+th,
+td {
+  text-align: left;
+  border-left: hidden;
+  border-right: hidden;
+}
+
+.article {
+  padding: 20px 0 20px 20px;
+}
+
+.separator {
+  padding: 0 20px 0 20px;
+  color: #e0e0e0;
+}
+
+
+.list {
+  float: right;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+
+  margin: 30px 15px 10px 0;
+
+  border: 2px black solid;
+}
+
+/* reply */
+.replyWrite{width:100%; margin:50px 0 30px 0; overflow:hidden;}
+.replyWrite ul li{float:left; list-style: none;}
+.replyWrite ul li.in{position:relative; width:82%; padding:25px 0 0 0;}
+.replyWrite ul li.in p.txt{position:absolute; left:0; top:4px; font-size:13px; font-weight:600; color:#666;}
+.replyWrite ul li.in p.password{position:absolute; right:-2px; top:0; line-height:20px;} 
+.replyWrite ul li.btn{margin:1px 0 0 10px;}
+.replyWrite p.ntic{clear:both; padding:5px 0;}
+.replyType{width:1600px; height:68px; border:1px #d9d9d9 solid; padding:0; font-family:'Nanum Gothic';}
+.replyBtn{display:block; width:110px; height:95px; line-height:85px; color:#fff; font-size:14px; font-weight:700; background:#5a524c; text-align:center; cursor: pointer; position: relative; right: -140px; bottom: 10px; }
+.replyBtn:hover{color:#fff; text-decoration:none;}
+.replyBox{width:100%; border-top:1px #d9d9d9 solid; overflow:hidden;}
+.replyBox ul{position:relative; border-bottom:1px #d9d9d9 solid; margin:15px 0 0 0; padding:0 20px 15px 20px;}
+.replyBox ul li.name{font-size:14px; font-weight:600; color:#555; padding:0 0 10px 0;}
+.replyBox ul li.name span{font-size:12px; color:#888; font-weight:normal;}
+.replyBox ul li.txt{width:100%; color:#888; line-height:1.5; font-size:13px; word-break:keep-all;}
+.replyBox ul li.btn{text-align:right; height:20px; padding:3px 0 0 0;}
+.replyBox ul li.btn .rebtn{display:inline-block; width:43px; height:23px; line-height:22px; color:#777; font-weight:600; text-align:center; background:url('../images/btn/btn_daybtn.gif') left top no-repeat;}
+.replyBox ul li.btn .rebtn:hover{color:#777;}
+.replynum{width:120px; height:20px; line-height:20px; border:1px #d9d9d9 solid; padding:0 0 0 5px; position: relative; right: -145px;}
+.finReply{margin:50px 0 0 0;}
+.ntic{float: left; margin-left: 40px; }
+#replyTxt{list-style: none;}
+#replyBtn{float: right; list-style: none;}
+#rUBtn{width: 50px; height: 10px;  text-align: center; border: 1px solid black;}
+#rDelBtn{width: 50px;  height: 10px; }
