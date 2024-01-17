@@ -17,7 +17,7 @@
 		            <p>
 		              08378 서울 구로구 디지털로34길 27<br>
 		              (구로동) 1106-7호 한국직업전문학교<br>
-		              [항공5기] 손발이 Do it팀<br>
+		              [항공5기] 손발을 Do it팀<br>
 		            </p>
 		          </div>
 		
@@ -28,8 +28,10 @@
 		          <div>
 		            <h4>사이트 문의</h4>
 		            <p>
+		              <strong>Facebook :</strong> camp_bridge2024<br>
 		              <strong>Phone :</strong> 02) 7777- 7777<br>
 		              <strong>Email :</strong> campbridge2024@example.com<br>
+		              <strong>Insta :</strong> camp_bridge2024
 		            </p>
 		          </div>
 		        </div>
@@ -39,7 +41,9 @@
 		          <div>
 		            <h4>상담문의 시간</h4>
 		            <p>
-		              <strong>월요일~금요일 : </strong>10:00AM - 18:00PM<br>
+		              <strong>월요일 ~ 금요일 : </strong>10:00AM - 18:00PM<br>
+		              <strong>토요일 ~ 일요일 : </strong>자동음성 안내<br>
+		              <strong>공휴일 : </strong>자동음성 안내
 		            </p>
 		          </div>
 		        </div>
@@ -66,7 +70,7 @@
 		        <!-- You can delete the links only if you purchased the pro version. -->
 		        <!-- Licensing information: https://bootstrapmade.com/license/ -->
 		        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
-		        Designed by <a href="https://bootstrapmade.com/">[항공5기] 손발이 Do It</a>
+		        Designed by <a href="https://bootstrapmade.com/">[항공5기] 손발을 Do It</a>
 		      </div>
 		    </div>
 		  </footer><!-- End Footer -->
