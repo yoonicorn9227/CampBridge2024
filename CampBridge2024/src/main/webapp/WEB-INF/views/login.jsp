@@ -30,11 +30,9 @@
 	    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 	
 	    <!-- Template Main CSS File -->
+        <link href="assets/css/login.css" rel="stylesheet">
 	    <link href="assets/css/main2.css" rel="stylesheet">
   		<link href="assets/css/header.css" rel="stylesheet">	
-        <link rel="stylesheet" href="assets/css/login.css">
-		<link href="assets/css/listStyle.css" rel="stylesheet">
-        
     	<script>
 			$(function(){
 				
