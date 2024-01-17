@@ -767,7 +767,7 @@ h6 {
 
 .events .event-item {
   background-size: cover;
-  background-position: cente;
+  background-position: center;
   min-height: 600px;
   padding: 30px;
 }
@@ -1241,11 +1241,16 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
-#hero{
+#hero1{
 		position:relative;
-        width:500px;
-        margin: auto;
-        line-height:200px;
+      	margin: 0 auto;
+      	margin-top:200px;
+      	width:70%
+}
+#weather_bg{
+	background:#FFEB3B;
+	width:100%;
+	
 }
 
 /*

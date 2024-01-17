@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>공지사항</title>
+		<title>공지사항 게시글</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	    <meta content="" name="description">
 	    <meta content="" name="keywords">
@@ -69,7 +69,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">1</td>
-			        <td class="table-title">게시글 내용이 들어갑니다.</td>
+			        <td class="table-title"><a href="nView">게시글 내용이 들어갑니다.</a></td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
 			        <td>111</td>

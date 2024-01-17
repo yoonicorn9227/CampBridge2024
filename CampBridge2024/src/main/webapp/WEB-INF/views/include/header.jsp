@@ -17,7 +17,7 @@
 	        <h1>CampBridge<span>.</span></h1>
 	      </a>
 	      <div class="login d-flex">
-	      <li><a href="login">로그인</a></li>
+	      <li><a href="/login">로그인</a></li>
 	      <li><a href="#">회원가입</a></li>
 	      <li><a href="nList">공지사항</a></li>
 	      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -29,29 +29,29 @@
 		<div id="nav_bottom" class="nav_bottom d-flex">
 	      <nav id="navbar" class="navbar">
 	        <ul>
-	          <li class="dropdown"><a href="#hero">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
+	          <li class="dropdown"><a href="#">CampBridge 소개<i class="bi bi-chevron-down dropdown-indicator"></i></a>
 		          <ul>
-		              <li><a href="#">사이트 소개</a></li>
+		              <li><a href="/weather">사이트 소개</a></li>
 		              <li><a href="#">개발팀 소개</a></li>
 		          </ul>
 	          </li>
 	          <li class="dropdown"><a href="#">캠핑장 검색</a>
 	          	<ul>
-		            <li><a href="#">캠핑장 검색</a></li>
+		            <li><a href="/campsearch">캠핑장 검색</a></li>
 		            <li><a href="#">지도 검색</a></li>
 		            <li><a href="#">추천 검색</a></li>
 		        </ul>
 	          </li>
-	          <li><a href="#menu">테마검색</a></li>
+	          <li><a href="#">테마검색</a></li>
 	          <li class="dropdown"><a href="#"><span>커뮤니티</span></a>
 	            <ul>
-	              <li><a href="#">파티원모집</i></a></li>
+	              <li><a href="#">파티원모집</a></li>
 		          <li><a href="#">캠핑꿀팁(NowHow)</a></li>
 	              <li><a href="#">중고거래&캠핑장 양도</a></li>
 	              <li><a href="#">자유게시판</a></li>
 	            </ul>
 	          </li>
-	          <li class="dropdown"><a href="#chefs">리뷰</a>
+	          <li class="dropdown"><a href="#">리뷰</a>
 		          <ul>
 		              <li><a href="#">캠핑장 리뷰</a></li>
 		              <li><a href="#">캠핑용품 리뷰</i></a></li>
