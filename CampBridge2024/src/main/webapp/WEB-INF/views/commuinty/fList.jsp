@@ -36,8 +36,8 @@
 	<!-- End Header -->
 	
 		<section class="notice">
-			<!-- 공지사항 리스트 -->
-	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 70px; left: -560px; ">자유 게시판</h1>
+			<!-- 자유게시판 리스트 -->
+	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 40px; left: -570px; ">자유 게시판</h1>
 		    <!-- 검색창 -->
 		    <div class="searchDiv">
 			  <form action="" method="get" name="searchFrm">
@@ -54,14 +54,16 @@
 			<table>
 		  		<div class="page-title">
 			      <colgroup>
-			        <col width="10%">
-			        <col width="55%">
+			        <col width="8%">
+			        <col width="12%">
+			        <col width="44%">
 			        <col width="15%">
 			        <col width="10%">
 			        <col width="10%">
 			      </colgroup>
 			      <tr>
 			        <th>No.</th>
+			        <th>게시글 유형</th>
 			        <th>제목</th>
 			        <th>작성자</th>
 			        <th>작성일</th>
@@ -69,6 +71,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">1</td>
+			        <td>맛집추천</td>
 			        <td class="table-title"><a href="fView">게시글 내용이 들어갑니다.</a></td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -76,6 +79,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">2</td>
+			          <td>맛집추천</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -83,6 +87,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">3</td>
+			          <td>자유게시</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -90,6 +95,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">4</td>
+			        <td>자유게시</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -97,6 +103,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">5</td>
+			        <td>자유게시</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -104,6 +111,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">6</td>
+			        <td>소모임</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -111,6 +119,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">7</td>
+			        <td>소모임</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -118,6 +127,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">8</td>
+			        <td>소모임</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -125,6 +135,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">9</td>
+			        <td>맛집추천</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -132,6 +143,7 @@
 			      </tr>
 			      <tr>
 			        <td id="No">10</td>
+			        <td>소모임</td>
 			        <td class="table-title">게시글 내용이 들어갑니다.</td>
 			        <td>관리자</td>
 			        <td>2024-12-31</td>
@@ -139,7 +151,7 @@
 			      </tr>
 		  		</div>
 		    </table>
-			 	<button class="write">글쓰기</button>
+			 	<a href="fWrite"><button class="write">글쓰기</button></a>
   			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
 		     <ul class="page-num">

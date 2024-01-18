@@ -39,7 +39,7 @@
 		<section class="notice">
 		
 		   
-			<!-- 공지사항 리스트 -->
+			<!-- 파티원모집 글보기-->
 	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:50px;">파티원 모집</h1>
 		    <table>
 		     <colgroup>

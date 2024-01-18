@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class FController {
 
-	//메인페이지
+	//★메인페이지
 	@GetMapping("/")
 	public String index() {
 		return "index";
@@ -18,7 +18,7 @@ public class FController {
 		return "login";
 	}// login()
 	
-	//2.회원가입
+	//2.회원가입 페이지
 	@GetMapping("signUp")
 	public String signUp() {
 		return "signUp";
@@ -35,5 +35,11 @@ public class FController {
 	public String nView() {
 		return "nView";
 	}// nView()
+	
+	//3.공지사항 게시글쓰기 페이지
+	@GetMapping("nWrite")
+	public String nWrite() {
+		return "nWrite";
+	}// nWrite()
 
 }// FController

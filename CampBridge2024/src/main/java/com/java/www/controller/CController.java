@@ -17,6 +17,11 @@ public class CController {
 	public String fView() {
 		return "/commuinty/fView";
 	}// fView()
+	
+	@GetMapping("fWrite")
+	public String fWrite() {
+		return "/commuinty/fWrite";
+	}// fWrite()
 
 	@GetMapping("tList")
 	public String tipList() {
@@ -27,6 +32,11 @@ public class CController {
 	public String tView() {
 		return "/commuinty/tView";
 	}// tView()
+	
+	@GetMapping("tWrite")
+	public String tWrite() {
+		return "/commuinty/tWrite";
+	}// tWrite()
 
 	@GetMapping("pList")
 	public String partyList() {

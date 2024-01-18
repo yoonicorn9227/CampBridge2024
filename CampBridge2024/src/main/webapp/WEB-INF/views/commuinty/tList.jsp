@@ -36,8 +36,8 @@
 	<!-- End Header -->
 	
 		<section class="notice">
-			<!-- 공지사항 리스트 -->
-	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 70px; left: -560px; ">캠핑꿀팁(Tip)</h1>
+			<!-- 꿀팁게시판 리스트 -->
+	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 40px; left: -550px; ">캠핑꿀팁(Tip)</h1>
 		    <!-- 검색창 -->
 		    <div class="searchDiv">
 			  <form action="" method="get" name="searchFrm">
@@ -139,7 +139,7 @@
 			      </tr>
 		  		</div>
 		    </table>
-			 	<button class="write">글쓰기</button>
+			 	<a href="tWrite"><button class="write">글쓰기</button></a>
   			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
 		     <ul class="page-num">

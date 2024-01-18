@@ -36,8 +36,8 @@
 	<!-- End Header -->
 	
 		<section class="notice">
-			<!-- 공지사항 리스트 -->
-	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 70px; left: -560px; ">파티원 모집</h1>
+			<!-- 파티원모집 리스트 -->
+	    	<h1 style="margin: 10px; font-weight: 700; position: relative; top: 40px; left: -560px; ">파티원 모집</h1>
 		    <!-- 검색창 -->
 		    <div class="searchDiv">
 			  <form action="" method="get" name="searchFrm">

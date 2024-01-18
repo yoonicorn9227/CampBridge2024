@@ -1,56 +1,43 @@
-@charset "UTF-8";
-
 section {
   text-align: center;
   margin: 150px 50px;
 	
 }
-
 h1 {
-  margin-top: 50px;
-  margin-bottom: 0;
+  margin: 40px 0 0 700px;
   font-size: 40px;
 }
-
 table {
-  width: 90%;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 70%; margin: 200px 0 0 270px;
   line-height: 40px;
 }
-
 table {
   border-collapse: collapse;
 }
-
 th {
   padding: 10px 0 10px 20px;
   border: 1px solid silver;
   border-top: 2px solid #009223;
 }
-
 td {
   padding: 5px 0 5px 20px;
   border: 1px solid silver;
 }
-
 th,
 td {
   text-align: left;
   border-left: hidden;
   border-right: hidden;
 }
-
 .article {
   padding: 20px 0 20px 20px;
 }
-
 .separator {
   padding: 0 20px 0 20px;
-  color: #e0e0e0;
+  color: #E0E0E0;
 }
 
+.listBtn{margin-right: 180px;}
 
 .list {
   float: right;
