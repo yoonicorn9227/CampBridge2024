@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>캠핑꿀팁(Tip)_글작성</title>
+		<title>캠핑꿀팁(Tip)_글수정</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	    <meta content="" name="description">
 	    <meta content="" name="keywords">
@@ -42,8 +42,8 @@
 		<section class="notice">
 		
 		   
-			<!-- 꿀팁 게시판 글쓰기 -->
-	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:235px; top: 30px;">꿀팁게시판 작성</h1>
+			<!-- 꿀팁 게시판 글수정 -->
+	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:235px; top: 30px;">꿀팁게시글 수정</h1>
 			<form action="" name="freeFrm" method="post" enctype="multipart/form-data">
 			    <table>
 			     <colgroup>
@@ -69,8 +69,8 @@
 			    </table>
 			</form>
 			<div class="listBtn">
-		    	<div class="list">저장</div>
-		    	<a href="tList"><div class="list">취소</div></a>
+		    	<a href="#"><div class="list">수정</div></a>
+		    	<a href="tView"><div class="list">취소</div></a>
 			</div>
  		 </section>
 		

@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>캠핑꿀팁(Tip)_글작성</title>
+		<title>자유게시판_글수정</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	    <meta content="" name="description">
 	    <meta content="" name="keywords">
@@ -42,8 +42,8 @@
 		<section class="notice">
 		
 		   
-			<!-- 꿀팁 게시판 글쓰기 -->
-	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:235px; top: 30px;">꿀팁게시판 작성</h1>
+			<!-- 자유게시판 글수정 -->
+	    	<h1 style="float: left; margin: 40px; font-weight: 700; position: relative; left:235px; top: 30px;">자유게시판 글수정</h1>
 			<form action="" name="freeFrm" method="post" enctype="multipart/form-data">
 			    <table>
 			     <colgroup>
@@ -53,12 +53,18 @@
 			        <col width="10%">
 	   			</colgroup>
 			      <tr>
-			        <th colspan="4" style="text-align: left;"><input type="text" id="f_btitle" placeholder=" ※ 게시글 제목을 입력해주세요."> </span></th>
+			        <th style="text-align: center;">
+		        	 	<select name="bType" id="bType" class="bType">
+					       <option value="freeCont">자유게시</option>
+					       <option value="foodGood">맛집추천</option>
+					       <option value="sParty">소모임</option>
+					    </select>
+			        </th>
+			        <th colspan="3" style="text-align: left;"><input type="text" id="f_btitle" placeholder=" ※ 게시글 제목을 입력해주세요."> </span></th>
 			      </tr>
 			      <tr style="border-bottom: 2px solid #009223">
-			        <td colspan="4"><strong>작성자 | </strong style="text-align: center;">
-			        <input type="text" value="aaa" readonly="readonly" style="border: 1px solid transparent;">
-			        </td>
+			        <td style="text-align: center;"><strong>작성자 | </strong style="text-align: center;"></td>
+			        <td><input type="text" value="aaa" readonly="readonly" style="border: 1px solid transparent;"> </td>
 			      </tr>
 			      <tr>
 			        <td colspan="4" class="article"><textarea rows="9" name="f_bcontent" id="f_bcontent" placeholder=" ※ 게시글 내용을 입력해주세요."></textarea> </td>
@@ -69,8 +75,8 @@
 			    </table>
 			</form>
 			<div class="listBtn">
-		    	<div class="list">저장</div>
-		    	<a href="tList"><div class="list">취소</div></a>
+		    	<div class="list">수정</div>
+		    	<a href="fView"><div class="list">취소</div></a>
 			</div>
  		 </section>
 		

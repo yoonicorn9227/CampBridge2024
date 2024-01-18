@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -154,6 +156,7 @@
 			 	<a href="nWrite"><button class="write">글쓰기</button></a>
   			 	<button class="write" onclick="location.href='/'">메인홈</button>
 	    	
+	    	<!-- 하단넘버링 시작 -->
 		     <ul class="page-num">
 			      <li class="first"></li>
 			      <li class="prev"></li>
@@ -170,6 +173,7 @@
 			      <li class="next"></li>
 			      <li class="last"></li>
    			 </ul>
+   			 <!-- 하단넘버링 끝 -->
 		</section>
 		
 		<!-- ======= Footer ======= -->

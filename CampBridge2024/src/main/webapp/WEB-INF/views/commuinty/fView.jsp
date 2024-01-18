@@ -1,10 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>자유 게시판</title>
+		<title>자유게시판_게시글</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	    <meta content="" name="description">
 	    <meta content="" name="keywords">
@@ -38,7 +40,6 @@
 	
 		<section class="notice">
 		
-		   
 			<!-- 자유게시글 보기 -->
 	    	<h1 style="float: left; margin: 40px 0 0 700px; font-weight: 700; position: relative; left:50px;">자유게시판 게시글</h1>
 		    <table>
@@ -48,7 +49,6 @@
 		        <col width="15%">
 		        <col width="12%">
    			</colgroup>
-		    
 		      <tr>
 		        <th style="text-align: center;"><strong>1007&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp |</strong></th>
 		        <th style="text-align: left;"><span>게시글 제목이 들어갑니다.</span></th>
@@ -74,7 +74,7 @@
 		    <!-- 버튼 -->
 		    <div class="listBtn">
 		    	<button class="list">삭제</button>
-		    	<button class="list">수정</button>
+		    	<a href="fUpdate"><button class="list">수정</button></a>
 		    	<a href="fList"><button class="list">목록</button></a>
 		    </div>
 		    

@@ -30,16 +30,22 @@ public class FController {
 		return "nList";
 	}// nList()
 
-	//3.공지사항 게시글보기
+	//3.공지사항 게시글 보기
 	@GetMapping("nView")
 	public String nView() {
 		return "nView";
 	}// nView()
 	
-	//3.공지사항 게시글쓰기 페이지
+	//3.공지사항 게시글작성 페이지
 	@GetMapping("nWrite")
 	public String nWrite() {
 		return "nWrite";
 	}// nWrite()
+	
+	//3.공지사항 글수정 페이지
+	@GetMapping("nUpdate")
+	public String nUpdate() {
+		return "nUpdate";
+	}// nUpdate()
 
 }// FController
